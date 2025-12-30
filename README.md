@@ -1,9 +1,9 @@
-Pedro Yáñez Meléndez
+Author: Pedro Yanez Melendez
 
 # Multimodal RAG Chatbot Agent (Colab)
 
 ## Goal
-- Build a Colab-first chatbot agent
+- Build a Colab chatbot agent
 - Route requests across text, image, and PDF
 - Return structured JSON outputs for easy integration
 
@@ -49,7 +49,6 @@ Pedro Yáñez Meléndez
 - Perform best on clear images and readable PDFs
 - Require stable cell order (avoid redefining functions out of order)
 
-## Next improvements
-- Add stronger Spanish intent routing
+
 - Add better PDF chunking and retrieval for long documents
 - Add exportable HTML report for sharing results
