@@ -26,11 +26,11 @@ Build and run a simple local chatbot to **route** user requests to different ski
 **Goal:** run the app from the `.py` file (no notebook needed).
 
 1) Open Colab → **Runtime → Change runtime type → Hardware accelerator → GPU** (optional but faster).  
-2) Upload the script (example name): `multi_modal_agent_reordered_v9.py`  
+2) Upload the script (example name): `multi_modal_agent_reordered_v11.py`  
 3) Run:
 
 ```bash
-!python multi_modal_agent_reordered_v9.py
+!python multi_modal_agent_reordered_v11.py
 ```
 
 4) Open the printed **public URL** (looks like `https://xxxx.gradio.live`).
@@ -78,4 +78,4 @@ This be a warning. App still run on CPU.
 
 ## Files
 
-- `multi_modal_agent_reordered_v9.py` — single-file app (model load + router + skills + UI)
+- `multi_modal_agent_reordered_v11.py` — single-file app (model load + router + skills + UI)
